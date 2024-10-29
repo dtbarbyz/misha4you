@@ -1,0 +1,13 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("discord library")
+
+local serv = win:Server("Preview", "")
+
+local btns = serv:Channel("Buttons")
+
+btns:Button("ХУЙОК КАНЧАЕТ ЛАЛАЛА", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dtbarbyz/chatbaba/refs/heads/main/223"))()
+end)
+
+btns:Seperator()
